@@ -8,10 +8,8 @@ interface PostType {
   title: string;
   postId: string;
   like: boolean;
-  text: string;
-  date: string;
 }
-const Post = ({ imageUrl, title, postId, like, text, date }: PostType) => {
+const Post = ({ imageUrl, title, postId, like }: PostType) => {
   const [activeLike, setActiveLike] = useState(like);
   return (
     <div className={style.cardList}>

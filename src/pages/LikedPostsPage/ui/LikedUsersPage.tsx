@@ -47,8 +47,6 @@ const LikedUsersPage = () => {
             imageUrl={post.imageUrl}
             title={post.title}
             postId={post.id}
-            text={post.text}
-            date={post.date}
           />
         ))
       ) : (

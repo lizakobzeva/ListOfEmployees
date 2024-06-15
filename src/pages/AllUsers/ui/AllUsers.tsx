@@ -13,9 +13,7 @@ import { getActivePage } from "entities/Post/model/selectors/getActivePage";
 
 const AllUsers = () => {
   const navigate = useNavigate();
-  const [posts, setPosts] = useState([
-    { id: "", imageUrl: "", title: "", text: "", date: "" },
-  ]);
+  const [posts, setPosts] = useState([{ id: "", imageUrl: "", title: "" }]);
   const [isLoading, setIsLoading] = useState(false);
   const dispatch = useAppDispatch();
   const token = window.localStorage.getItem(TOKEN_LOCALSTORAGE_KEY);
@@ -48,8 +46,6 @@ const AllUsers = () => {
               imageUrl={post.imageUrl}
               title={post.title}
               postId={post.id}
-              text={post.text}
-              date={post.date}
             />
           ))}
         </div>
