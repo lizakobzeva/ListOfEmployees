@@ -4,7 +4,9 @@ import style from "./LoginRegisterPage.module.scss";
 const LoginRegisterPage = () => {
   return (
     <div className={style.Page}>
-      <LoginRegisterForm />
+      <div className={style.content}>
+        <LoginRegisterForm />
+      </div>
     </div>
   );
 };
