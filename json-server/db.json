@@ -1,0 +1,241 @@
+{
+  "users": [
+    {
+      "email": "lizakobzeva@list.ru",
+      "password": "$2a$10$E5Tlqq3/k3E74ayXS6p3JOEZMB3BjFHVE.0w5Hgfgki2n/xX2RlRq",
+      "name": "lizakobzeva",
+      "id": "RYI6LFU",
+      "likedPosts": [
+        "5",
+        "6",
+        "dafdasdf",
+        "dfadsddf"
+      ],
+      "likedUsers": [
+        "5",
+        "4",
+        "dfadsddf"
+      ]
+    },
+    {
+      "email": "a@a",
+      "password": "$2a$10$V0OZ.Kso3mfzNR/ZKCzs8.arXEOMq14ybBTvr.ZOwcM8dMaC3qNEu",
+      "name": "qqw r d wwq r d",
+      "id": "cuuy3ze"
+    },
+    {
+      "email": "arina@list.ru",
+      "password": "$2a$10$tTixBbMa2w8StGdoPNVIye7nx5HXsmtVvioce.HcTdTbsNfzlnVXG",
+      "name": "arina",
+      "likedPosts": [
+        ""
+      ],
+      "id": "jcdK-nW"
+    },
+    {
+      "email": "nikita@list.ru",
+      "password": "$2a$10$iCOqfeASGvjuH/4hIn0wXu.8E/pORDvq5meIH9tR80CBPyBD2a9yG",
+      "name": "nikita",
+      "likedPosts": [
+        ""
+      ],
+      "id": "IMW080O"
+    },
+    {
+      "email": "maha@list.ru",
+      "password": "$2a$10$.CDzhP1HyYXL4AJ6qgnrHOgky8NM1gECdlRyHicLRMOvNRNj/g2om",
+      "name": "masha",
+      "likedPosts": [
+        ""
+      ],
+      "id": "hqj2gU3"
+    },
+    {
+      "email": "nastia@list.ru",
+      "password": "$2a$10$GTLroh5lSeBM2hgxC6UjtuNW5MKHq1BN5l./FDChuD5weBZWYXAf6",
+      "name": "nastia",
+      "likedPosts": [
+        ""
+      ],
+      "id": "tnLSqdj"
+    },
+    {
+      "email": "adfadfa@fdadsfa",
+      "password": "$2a$10$9JZ0cb.zoOxYQH8vg9uhFOzds7Wj24ScO6zQMLU5tLP.RtS1Dy7JK",
+      "name": "nastia",
+      "likedPosts": [
+        ""
+      ],
+      "id": "kjf6WTL"
+    },
+    {
+      "email": "adsfawe@dsfa",
+      "password": "$2a$10$5q1Lyu1PWUFYu8ZPiN2B4.Yozk230ErBzpm.jm/2oaLsb5yFzXI9u",
+      "name": "oleg",
+      "likedPosts": [
+        ""
+      ],
+      "id": "1cYhtAy"
+    },
+    {
+      "email": "asdfa@dffads",
+      "password": "$2a$10$FNhMeFOpK6.KkAMEdb9LROC6Qyq4R9MCKbJFOML67qD4fmoRnTDeS",
+      "name": "mira",
+      "likedUsers": [
+        "",
+        "dafdasdf",
+        "17",
+        "14",
+        "13",
+        "12",
+        "dfadsddf",
+        "19"
+      ],
+      "id": "TXdQcxP"
+    },
+    {
+      "email": "asfa@dffads",
+      "password": "$2a$10$tOY5XbEuLxkmtbtuIIo/6.oC.WBZ7TYnNGGGJOFnFrj6rHMisviau",
+      "name": "dfad",
+      "likedUsers": [
+        ""
+      ],
+      "id": "RvAkJG9"
+    }
+  ],
+  "posts": [
+    {
+      "userId": "RYI6LFU",
+      "title": "Василий петрович",
+      "text": "eszrdxfgchvj",
+      "imageUrl": "https://wallpapers.com/images/hd/weird-cat-pictures-ckawnv8idb967wr7.jpg",
+      "id": "dafdasdf"
+    },
+    {
+      "userId": "RYI6LFU",
+      "title": "Иван Иванович",
+      "text": "fdsfasdfdscxzvdsffasd",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2248/0831/files/cat-meme-20.png?14190142732694678529",
+      "id": "dfadsddf"
+    },
+    {
+      "userId": "RYI6LFU",
+      "title": "cxvasgdsacv",
+      "text": "wzseddsfdsf",
+      "imageUrl": "https://wallpapers.com/images/hd/weird-cat-pictures-ckawnv8idb967wr7.jpg",
+      "id": 2
+    },
+    {
+      "userId": "RYI6LFU",
+      "title": "zdfgdz",
+      "text": "zsxc jhmbn",
+      "imageUrl": "https://wallpapers.com/images/hd/cute-funny-cat-pictures-8buws2lhzecgkeyw.jpg",
+      "id": 4
+    },
+    {
+      "userId": "RYI6LFU",
+      "title": "asdfasdf",
+      "text": "asdfasdfdscxvzds",
+      "imageUrl": "https://i.pinimg.com/736x/7c/42/e6/7c42e64dc49af2fbfafd1c2d9586bddb.jpg",
+      "id": 5
+    },
+    {
+      "userId": "RYI6LFU",
+      "title": "dfasdfcxvzcxvds",
+      "text": "fsdadsfasdfadsfasdfasdfczcxva",
+      "imageUrl": "https://i.pinimg.com/736x/28/6f/06/286f06017a23012901d41f0a8bd627f1.jpg",
+      "id": 6
+    },
+    {
+      "userId": "RYI6LFU",
+      "title": "fvzfgasdfxvkldshofihnkvskn",
+      "text": "sdfg hjkmjbgrddDfgDFgs",
+      "imageUrl": "https://i.pinimg.com/originals/01/e5/62/01e56244fcd9d6604da9e32d1432a333.jpg",
+      "id": 7
+    },
+    {
+      "userId": "RYI6LFU",
+      "title": "adffff",
+      "text": "asdfd dfdfd",
+      "imageUrl": "https://i.pinimg.com/originals/01/e5/62/01e56244fcd9d6604da9e32d1432a333.jpg",
+      "id": 8
+    },
+    {
+      "userId": "RYI6LFU",
+      "title": "dfagcva",
+      "text": "sdfg sae",
+      "imageUrl": "https://i.pinimg.com/originals/01/e5/62/01e56244fcd9d6604da9e32d1432a333.jpg",
+      "id": 9
+    },
+    {
+      "userId": "RYI6LFU",
+      "title": "dfacvae",
+      "text": "dfadfasdfadsfadsfadsfdxcvxvcvccvxcvxcvcvxcvxcvxcvvxcsdfsdfsdfsdfsdfda hjkmjbgrddDfgDFgs",
+      "imageUrl": "https://i.pinimg.com/originals/01/e5/62/01e56244fcd9d6604da9e32d1432a333.jpg",
+      "id": 10
+    },
+    {
+      "userId": "dadfeefd",
+      "title": "adfdff fda",
+      "text": "dfadfadfdd hjkmjbgrddDfgDFgs",
+      "imageUrl": "https://i.pinimg.com/originals/01/e5/62/01e56244fcd9d6604da9e32d1432a333.jpg",
+      "id": 11
+    },
+    {
+      "userId": "RYI6LFdadU",
+      "title": "Петр Петрович",
+      "text": "fdsfasdfdsdfadcxzvdsffasd",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2248/0831/files/cat-meme-20.png?14190142732694678529",
+      "id": 12
+    },
+    {
+      "userId": "RYI6LFdadU",
+      "title": "Петр Осипов",
+      "text": "fdsfasdfdsdfadcxzvdsffasd",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2248/0831/files/cat-meme-20.png?14190142732694678529",
+      "id": 13
+    },
+    {
+      "userId": "RYI6LFdadU",
+      "title": "Сергей Старцев",
+      "text": "взалутжлыва",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2248/0831/files/cat-meme-20.png?14190142732694678529",
+      "id": 14
+    },
+    {
+      "userId": "RYI6LFdadU",
+      "title": "Василий Старцев",
+      "text": "фукаиперк",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2248/0831/files/cat-meme-20.png?14190142732694678529",
+      "id": 15
+    },
+    {
+      "userId": "RYI6LFdadU",
+      "title": "Александр Кошкин",
+      "text": "вафуауаауаава",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2248/0831/files/cat-meme-20.png?14190142732694678529",
+      "id": 16
+    },
+    {
+      "userId": "RYI6LFdadU",
+      "title": "Александр Кошкин",
+      "text": "вафуауаауаава",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2248/0831/files/cat-meme-20.png?14190142732694678529",
+      "id": 17
+    },
+    {
+      "userId": "RYI6LFdadU",
+      "title": "Александр Кошкин",
+      "text": "вафуауаауаава",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2248/0831/files/cat-meme-20.png?14190142732694678529",
+      "id": 18
+    },
+    {
+      "userId": "RYI6LFdadU",
+      "title": "Александр Кошкин",
+      "text": "вафуауаауаава",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2248/0831/files/cat-meme-20.png?14190142732694678529",
+      "id": 19
+    }
+  ]
+}

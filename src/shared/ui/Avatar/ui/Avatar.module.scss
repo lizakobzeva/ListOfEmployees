@@ -1,0 +1,58 @@
+.menu {
+  filter: drop-shadow(1px 1px 1px black);
+  height: 50px;
+
+  .subMenu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    list-style: none;
+    margin: 0;
+    padding: 6px 20px;
+    background-color: var(--color2);
+    color: var(--color3);
+    max-width: 100%;
+    p {
+      transition: 100ms;
+      width: 100%;
+    }
+  }
+
+  .active {
+    scale: 1.1;
+    color: var(--color3);
+  }
+
+  button {
+    display: inline-flex;
+    background: var(--accent);
+    color: var(--background);
+    border: none;
+    border-radius: 10px;
+    padding: 6px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color2);
+    color: var(--color3);
+  }
+
+  button path {
+    fill: var(--color1);
+    font-family: sofia-pro, sans-serif;
+  }
+}
+
+.InAccount {
+  width: 100%;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}

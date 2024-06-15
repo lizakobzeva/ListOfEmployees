@@ -1,0 +1,79 @@
+.FullPostPage {
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: var(--color5);
+  max-width: 60%;
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  @media screen and (max-width: 650px) {
+    max-width: 90%;
+  }
+  h2 {
+    word-wrap: break-word;
+  }
+  p {
+    word-wrap: break-word;
+  }
+
+  .FullPostImage {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+  }
+  .text {
+    max-width: 70%;
+  }
+  .cardHeader {
+    h2 {
+      max-width: 90%;
+      display: inline;
+      word-wrap: break-word;
+    }
+    max-width: 70%;
+    margin-top: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .iconButton {
+    border: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 1.25rem;
+    transition: 0.25s ease;
+    box-shadow:
+      0 0 0 1px rgba(#000, 0.05),
+      0 3px 8px 0 rgba(#000, 0.15);
+    z-index: 1;
+    cursor: pointer;
+    color: #565656;
+
+    &:hover,
+    &:focus {
+      background-color: #ec4646;
+      color: #fff;
+    }
+  }
+
+  .cardMeta {
+    display: flex;
+    align-items: center;
+    color: #787878;
+    svg {
+      flex-shrink: 0;
+      margin-right: 0.25em;
+    }
+  }
+}

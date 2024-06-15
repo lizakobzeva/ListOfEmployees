@@ -1,0 +1,87 @@
+// :root {
+//   --primary: var(--color2);
+//   --greyLight: var(--color4);
+//   --greyLight-2: var(--color3);
+//   --greyDark: var(--color4);
+// }
+
+ul {
+  list-style-type: none;
+}
+
+.page {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  margin: 3rem auto;
+  border-radius: 0.6rem;
+  background: var(--color5);
+  box-shadow: 0 0.8rem 2rem rgba(#5a6181, 0.05);
+  @media screen and (max-width: 650px) {
+    margin: 25px;
+    height: auto;
+    width: auto;
+  }
+
+  &Numbers,
+  &Btn,
+  &Dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    @media screen and (max-width: 650px) {
+      width: 2rem;
+      height: 2rem;
+      margin: 0.4rem;
+    }
+  }
+
+  &Dots {
+    width: 2.6rem;
+    height: 2.6rem;
+    color: var(--color6);
+    cursor: initial;
+    @media screen and (max-width: 650px) {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  &Numbers {
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 0.4rem;
+    @media screen and (max-width: 650px) {
+      width: 2rem;
+      height: auto;
+    }
+    &:hover {
+      color: var(--color3);
+    }
+
+    &.active {
+      color: var(--color3);
+      background: var(--color4);
+      font-weight: 600;
+    }
+  }
+
+  &Btn {
+    color: var(--greyLight);
+    pointer-events: none;
+
+    &.active {
+      color: var(--greyDark);
+      pointer-events: initial;
+
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+}

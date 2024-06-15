@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap");
+
+.cardList {
+  color: var(--color3);
+
+  img {
+    height: 150px;
+    width: 150px;
+    display: block;
+    border-radius: 50%;
+  }
+  p {
+    word-wrap: break-word;
+  }
+  a {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color5);
+  box-shadow:
+    0 0 0 1px rgba(#000, 0.05),
+    0 20px 50px 0 rgba(#000, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 1.25rem;
+  position: relative;
+  transition: 0.15s ease-in;
+  width: 300px;
+  height: 300px;
+  &:hover,
+  &:focus-within {
+    box-shadow: 0 10px 60px 0 rgba(#000, 0.1);
+    transform: translatey(-5px);
+  }
+}
+
+.cardImage {
+  // overflow: hidden;
+  // max-height: 300px;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.25;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: inherit;
+    will-change: transform;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.cardFooter {
+  width: 100%;
+  margin-top: 1rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+  display: flex;
+  align-items: end;
+}

@@ -1,0 +1,17 @@
+.button {
+  padding: 10px 20px;
+  border: none;
+  width: auto;
+  border-radius: 10px;
+  background-color: var(--color2);
+  color: var(--color3);
+  filter: drop-shadow(1px 1px 1px black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.button:active {
+  scale: 0.95;
+  transition: 300ms;
+}

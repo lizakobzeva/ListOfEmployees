@@ -1,0 +1,24 @@
+:root {
+  --font-family-main: Arial, sans-serif;
+
+  --font-size-m: 16px;
+  --font-line-m: 24px;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+
+  --font-size-l: 24px;
+  --font-line-l: 32px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+  --font-size-xl: 28px;
+  --container-max-width: 1200px;
+
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+}
